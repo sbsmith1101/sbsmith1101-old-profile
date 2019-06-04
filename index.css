@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+* {
+   /* box-sizing: border-box;*/
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-header__title {
+    /*
+    border: 5px solid #39add1;
+
+    height: 200px;
+    width: 100px;
+
+    margin: 50px;
+    padding: 100px;
+*/
+}
+html{
+    font: 20px/1 "Noto Serif", sans-serif;
+
+}
+.main-header {
+background-color: #1d1a31;
+display: flex;
+justify-content: space-between;
+padding: 1rem 2rem ;
+}
+.main-header__title{
+    color: coral;
+}
+ul {
+list-style: upper-roman;
+}
+a {
+text-decoration: none;
+color: #c1a5a9;
+}
+a :hover {
+color: #4e4e4e;
+}
+
+.nav__list{
+display: flex;
+align-content: center
+
+}
+.nav__list-item{
+margin-right: 0.5rem;
+
+}
+
+.nav__list-item:last-child{
+    margin-right: 0;
+}
