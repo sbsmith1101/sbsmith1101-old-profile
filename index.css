@@ -1,24 +1,50 @@
-.Contact-Items{
+/* .Contact-Items{
 display: grid;
 flex-direction: row;
+} */
+.main{
+/* background-image: url(1523288-8.jpg); */
+background-image: linear-gradient( rgb(157, 169, 177), rgb(70, 65, 73));
+background-size: cover;
+background-position: center center;
+min-height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+}
+.Contact-pic>img{
+filter: grayscale(120%);
+height: 360px;
+object-position: center center;
+object-fit: cover;
+width: 528px;
+background-repeat: no-repeat;
+}
+.Contact-Items{
+display: grid;
+flex-direction: column;
+align-items: center;
+justify-content: space-between; 
 }
 .nav_items{
-display: grid;
-flex-direction: row; 
-margin-left: 500px;  
-position: fixed;
+    padding: 15px;
+    font-size: 20px;
+    color: darkred;
 }
 .main-header__title{
 color: rgba(236, 213, 213, 0.966);
 position: fixed;
 }
+.front-page-word-box {
+border: 3px dotted green;
+margin: 15% 15% 15% 22%;
+}
 .Front-Page-img__intro{
+border: 2px solid blue;
 align-items: center;
-position: relative;
-justify-content: flex-start;
 display: flex;
 flex-direction: column;
-margin-left: 25px;
+margin: 20px;
+font-size: 1.6rem;
 }
 *{
 outline: 1px solid #ff00004d;
@@ -29,10 +55,32 @@ float: right;
 .Front-Page-img{
 align-items: center;
 position: absolute;
-background: url(./Raised\ Slop\ Garden.jpg) center #000;
+background: url(./Raised\ Slop\ Garden.jpg) center rgba(214, 206, 206, 0.377);
 width: 100%;
 height: 100%;
 z-index: -1;
 min-height: 500px;
 }
-;
+.burnt-toast{
+    max-width: 12rem;
+    position: fixed;
+    bottom: .5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px white;
+    color: seashell;
+    background: green;
+    animation: ease-out 0.5s, fadeout 0.5s 2.5s;
+}
+.projects{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 1rem;
+
+}
+
+.project-I{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
