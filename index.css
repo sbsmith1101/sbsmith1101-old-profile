@@ -121,16 +121,6 @@ grid-template-columns: 1fr 1fr;
     display: grid;
 grid-template-columns: 1fr 1fr; 
     grid-auto-columns: auto;
-    
-}
-.container2{
-    background-size: auto;
-    background-position: center center;
-    display: grid;
-grid-template-columns: 1fr 1fr;
-grid-auto-columns: auto ;
-grid-auto-columns: auto;
-
 }
 .Pro-I-Text{
     margin: 8px;
@@ -188,4 +178,10 @@ grid-auto-columns: auto;
     text-decoration: none;
     transform: translateY(calc(100% + 1rem));
     animation: toast-pop 0.5s ease-out 2s forwards;
+}
+.Contact-main-header{
+    text-decoration: underline;
+}
+.color-text{
+color: chartreuse;   
 }
