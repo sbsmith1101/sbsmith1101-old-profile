@@ -46,8 +46,8 @@ flex-direction: column;
 margin: 20px;
 font-size: 1.6rem;
 }
-*{
-outline: 1px solid #ff00004d;
+ *{
+/* outline: 1px solid #ff00004d; */
 }
 
 .nav_items_main{
